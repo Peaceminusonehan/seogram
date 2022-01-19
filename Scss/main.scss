@@ -1,0 +1,209 @@
+/*-----------------Nav------------*/
+
+$fount-weight:700;
+@mixin transalation {
+     transition: all 0.5s ease-in-out;
+}
+@mixin alink {
+     text-decoration: none;
+     color: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+    display: none;}
+    
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+.cucer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color:#6C55F9 ;
+    padding: 15px;
+    border-radius: 2rem;
+    z-index: 3;
+}
+.hamlay{
+     margin-top: 2rem !important;
+}
+.topa{
+    text-decoration: none;
+    color: inherit;
+}
+span{
+    font-weight:$fount-weight;
+    font-size: 1.3rem;
+    color: #6C55F9;
+}
+section{
+    overflow-x: hidden;
+}
+
+li{
+  list-style: none;
+  color:#6C55F9;
+  float: left;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  .a1{
+    background-color:#6C55F9 ;
+    border-radius:0.5rem ;
+    cursor: pointer;
+    color: white;
+    user-select: none;
+    opacity: 1 !important;
+    &:hover{
+        background-color:#645F88 ;
+        color: white;
+    }
+
+}
+
+  
+    a{
+        text-decoration: none;
+        color: inherit;
+        font-weight: 500;
+        opacity: 0.5;
+       
+        &:hover{
+            opacity: 1;
+            color: #645F88;
+           
+        }
+    }
+}
+.Nav{
+    position: sticky;
+    top: 0;
+    margin-bottom: 2rem;
+     z-index: 5;
+
+    
+}
+.sticky{
+   background-color:white;
+   border-bottom: 2px solid white ;
+    box-shadow: 0 0 20px black;
+}
+  
+/*============Head==============*/
+.span{
+    background-color:#6C55F9 ;
+     @include transalation;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+   border: none;
+    &:hover{
+      background-color: #645F88;   
+    }
+}
+.head{
+   padding: 5rem 3rem;
+    background-color: #F6F5FC;
+    border-radius: 1rem;
+
+}
+.div1{
+    margin-top: -10px;
+    text-align: center;
+}
+.icon1:hover{
+    background-color:#645F88 !important;
+    color: white !important;
+}
+.a2{
+    @include alink
+}
+/*=================Service--------------*/
+
+.btn1{
+   border-radius: 5px;
+   @include transalation;
+   
+   &:hover{
+       background-color:#645F88 !important;
+   }
+   &:active{
+       background-color: royalblue!important;
+       transition: none !important;
+   }
+}
+/*======================about us================*/
+.section1{
+    margin-bottom: 10rem;
+}
+/*============service==============*/
+
+.section2{
+    margin-top: 10rem;
+}
+.section3{
+    margin-top:6rem ;
+    margin-bottom: 7rem;
+}
+
+/*============contact==============*/
+.containers4{
+ background-color: #6C55F9;
+ color: white;
+ text-align: center;
+padding: 4rem 0;
+}
+.section5{
+    margin-bottom: 5rem;
+}
+.containers6{
+    background-color: #6C55F9;
+   color: white;
+    text-align:left;
+    padding: 4rem 4rem;
+   margin-top: 5rem;
+   }
+   .section7{
+       margin-bottom: 5rem;
+   }
+.S9{
+  margin-top: 6rem;
+  background-image: url(/img/istockphoto-1271067395-170667a.jpg);
+  background-size: cover;
+  background-position:center ;
+  color: #F6F5FC;
+ cursor: pointer;
+ padding: 1rem 0;
+ .div{
+     opacity: 0.5;
+     text-align: left;
+     &:hover{
+         opacity: 1;
+     }
+     }
+button:hover{
+    background-color: #645F88 !important;
+    @include  transalation
+}
+ 
+}
+
+/*======================abouts2===============*/
+.aboutsection{
+    margin-top: 3rem;
+    padding: 6rem 0;
+    background-color: #F6F5FC;
+    border-radius: 1rem;
+    color:#645F88 ;
+}
+.address{
+    margin-top: 5rem;
+    padding: 3rem 0;
+}

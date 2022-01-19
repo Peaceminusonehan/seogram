@@ -1,0 +1,240 @@
+/*-----------------Nav------------*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.cucer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #6C55F9;
+  padding: 15px;
+  border-radius: 2rem;
+  z-index: 3;
+}
+
+.hamlay {
+  margin-top: 2rem !important;
+}
+
+.topa {
+  text-decoration: none;
+  color: inherit;
+}
+
+span {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #6C55F9;
+}
+
+section {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+  color: #6C55F9;
+  float: left;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+
+li .a1 {
+  background-color: #6C55F9;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  opacity: 1 !important;
+}
+
+li .a1:hover {
+  background-color: #645F88;
+  color: white;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+li a:hover {
+  opacity: 1;
+  color: #645F88;
+}
+
+.Nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-bottom: 2rem;
+  z-index: 5;
+}
+
+.sticky {
+  background-color: white;
+  border-bottom: 2px solid white;
+  -webkit-box-shadow: 0 0 20px black;
+          box-shadow: 0 0 20px black;
+}
+
+/*============Head==============*/
+.span {
+  background-color: #6C55F9;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: white;
+  border: none;
+}
+
+.span:hover {
+  background-color: #645F88;
+}
+
+.head {
+  padding: 5rem 3rem;
+  background-color: #F6F5FC;
+  border-radius: 1rem;
+}
+
+.div1 {
+  margin-top: -10px;
+  text-align: center;
+}
+
+.icon1:hover {
+  background-color: #645F88 !important;
+  color: white !important;
+}
+
+.a2 {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*=================Service--------------*/
+.btn1 {
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn1:hover {
+  background-color: #645F88 !important;
+}
+
+.btn1:active {
+  background-color: royalblue !important;
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+
+/*======================about us================*/
+.section1 {
+  margin-bottom: 10rem;
+}
+
+/*============service==============*/
+.section2 {
+  margin-top: 10rem;
+}
+
+.section3 {
+  margin-top: 6rem;
+  margin-bottom: 7rem;
+}
+
+/*============contact==============*/
+.containers4 {
+  background-image: url(/Gh0kJR.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.section5 {
+  margin-bottom: 5rem;
+}
+
+.containers6 {
+  background-image: url(/pngtree-taobao-cutting-corners-pink-and-purple-background-picture-image_171066.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  padding: 4rem 4rem;
+  margin-top: 5rem;
+}
+
+.section7 {
+  margin-bottom: 5rem;
+}
+
+.S9 {
+  margin-top: 6rem;
+  background-image: url(/img/istockphoto-1271067395-170667a.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #F6F5FC;
+  cursor: pointer;
+  padding: 1rem 0;
+}
+
+.S9 .div {
+  opacity: 0.5;
+  text-align: left;
+}
+
+.S9 .div:hover {
+  opacity: 1;
+}
+
+.S9 button:hover {
+  background-color: #645F88 !important;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/*======================abouts2===============*/
+.aboutsection {
+  margin-top: 3rem;
+  padding: 6rem 0;
+  background-color: #F6F5FC;
+  border-radius: 1rem;
+  color: #645F88;
+}
+
+.address {
+  margin-top: 5rem;
+  padding: 3rem 0;
+}
+/*# sourceMappingURL=main.css.map */
